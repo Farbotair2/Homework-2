@@ -1,27 +1,214 @@
-.card {box-sizing: border-box;
-width: 320px;
-border-style: solid;
-border-color: gray;
-border-width:  4px; 
-border-radius: 15px;
-padding: 15px;
+body {
+    margin: 0; 
 }
 
-.card-image {
-    width: 100%;
-    margin-bottom: 20px;
+header { margin-top: 0%;
+height: 78px;
+display: inline-flex;} 
 
-}
-.card-title { 
-    font-size: 2em;
-    margin-bottom: 0.5em;
+.menu-header {
+    /* Navbar */
+    position: absolute;
+    width: 620px;
+    height: 15px;
+    left: 330px;
+    top: 25.5px;}
+
+.home {
+    /* Home */
+    position: absolute;
+    width: 68px;
+    height: 27px;
+    left: 0px;
+    top: 25.5px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 2.7px;
+    text-transform: uppercase;
+    color: #FF0000;
+text-decoration: none;}
+
+    .photoapp { 
+        /* Photoapp */
+        position: absolute;
+        width: 131px;
+        height: 27px;
+        left: 140px;
+        top: 25.5px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 18px;
+        display: flex;
+        align-items: center;
+        letter-spacing: 2.7px;
+        text-transform: uppercase;
+        color: #FF0000;}
+
+    .design {
+        /* Design */
+        position: absolute;
+        width: 87px;
+        height: 27px;
+        left: 343px;
+        top: 25.5px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 18px;
+        display: flex;
+        align-items: center;
+        letter-spacing: 2.7px;
+        text-transform: uppercase;
+        color: #FF0000; 
+    }
+
+    .download { 
+        /* Download */
+        position: absolute;
+        width: 140px;
+        height: 27px;
+        left: 480px;
+        top: 25.5px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 18px;
+        display: flex;
+        align-items: center;
+        letter-spacing: 2.7px;
+        text-transform: uppercase;
+        color: #FF0000; 
+    }
+
+/* .hero-section    {
+    display: flex;
+    background-size: cover;
+    height: 789px;} */
+
+.hero-section {
+    /* Image */
+        display: block;
+        margin: 0 auto;
+        background: url(simpleimage.png);
+        height: 789px;
+        margin-top: 78px;}
+    
+.container { 
+    display: contents; 
+    width: 1280px;
+    height: 650px;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+}   
+    
+.texttitle {
+    /* Text title */
+    margin-top: 49px;
+    margin-left: 253px;
+        width: 800px;
+        height: 29px;
+        font-size: 20px;
+        line-height: 25px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #373737;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 774;
+        font-size: 22px;
+        line-height: 27px;
+        letter-spacing: 2px; }
+    
+    
+.loremtext { 
+   /* Lorem */
+    width: 1145px;
+    height: 160px;
+    margin-left: 67.5px;
+    margin-top: 38px; 
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    align-items: center;
+    letter-spacing: 2.4px;
+    color: #373737; 
 }
 
-.card-info {
-    font-size: 1.2em;
-    margin-bottom: 0.4em;
+.loremtext2 {
+    /* Lorem Text*/
+    width: 1145px;
+    height: 216px;
+    margin-left: 67.5px;
+    margin-top: 28px; 
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+     text-align: center;
+    align-items: center; 
+    letter-spacing: 2.4px; 
+    color: #373737;} 
+
+.btn-red {
+    /* Button*/
+    align-items: center;
+    padding-top: 18px;
+    padding-left: 42.5px;
+    padding-right: 43.5px;
+    padding-bottom: 17px;
+    margin-top: 66px;
+    margin-left: 544.5px;
+    background: #FF0000;
+    border: none;
+    border-radius: 4px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    display: flex;
+    letter-spacing: 1.8px;
+    color: #FFFFFF;    
 }
 
-.card-price {font-size: 2.1em;
-margin-bottom: 1em;
+.container {
+    display: contents;
+    width: 1280px; 
+    background-color: white; 
 }
+
+ .footer {
+    /* Footer*/
+width: 1280px;
+height: 39px;
+right: 105px;
+bottom: 29px;} 
+
+.copyright { 
+/* Copyright  */
+width: 462px;
+    height: 39px;
+    margin-top: 82px;
+    right: 105px;
+    margin-left: 713px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 19.5px;
+    letter-spacing: 2.4px;
+    color: #373737;}
+
